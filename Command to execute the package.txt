@@ -1,0 +1,9 @@
+
+Command to deploy the updated objects to resolved defect266 of safety stocks. 
+
+
+1.Open Unix. 
+2.Move the XXNBTY_MSC_EXT05_SAFETY_STK_PKG.pkb to /u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql using WINSCP and execute the command below in the UNIX.
+
+sqlplus -s USERNAME/PASSWORD
+@/u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/sql/XXNBTY_MSC_EXT05_SAFETY_STK_PKG.pkb
